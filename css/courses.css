@@ -1,0 +1,45 @@
+.add-course {
+  min-height: 100vh;
+  background-color: rgb(94, 74, 49);
+  padding-top: 7rem;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/123.jpg);
+}
+
+.custom-form {
+  align-items: stretch;
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+.custom-form button {
+  align-self: flex-end;
+  padding: 0.625rem 2.5rem;
+}
+
+.courses {
+  background-color: transparent;
+}
+
+.course-grid {
+  row-gap: 2rem;
+}
+
+.bg-danger {
+  background-color: red !important;
+  margin-inline: 5px;
+}
+.bg-danger:hover {
+  background-color: rgb(216, 12, 12) !important;
+}
+.bg-green {
+  background-color: rgb(4, 220, 101) !important;
+  margin-inline: 5px;
+}
+.bg-green:hover {
+  background-color: rgb(13, 158, 78) !important;
+}
+
+.course-info {
+  text-align: center;
+}
